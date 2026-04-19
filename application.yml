@@ -1,0 +1,14 @@
+server:
+  port: 8080
+
+lavalink:
+  plugins:
+    - dependency: "dev.lavalink.youtube:youtube-plugin:1.18.0"
+
+  server:
+    password: "youshallnotpass"
+
+    sources:
+      youtube: false
+      soundcloud: true
+      http: true
